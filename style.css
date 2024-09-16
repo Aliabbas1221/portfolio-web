@@ -9,8 +9,8 @@
     --bg-dark-blue:#091020;
     --bg-white:#fff;
     --gray-color:#c6c9d8bf;
-    -gradient-color:linear-gradient(-244deg, var(--primary-color) 0, #337DFF 100% );
-    -gradient-text:linear-gradient(120deg, #1C99FE 20.50%, #7644FF 50% , var(--primary-color) 79%);
+    -gradient-color:linear-gradient(-244deg, #FD4766 0, #337DFF 100% );
+    -gradient-text:linear-gradient(120deg, #1C99FE 20.50%, #7644FF 50% , #FD4766 79%);
     
 
     --primary-text:#FD4766;
@@ -203,7 +203,7 @@ button:hover{
    
 }
 .about-wrapper .single-progress .progress-bar{
-  background-image: linear-gradient(-244deg, var(--primary-color) 0, #337DFF 100% );
+  background-image: linear-gradient(-244deg, #FD4766 0, #337DFF 100% );
     
 }
 .about-wrapper .single-progress h6{
@@ -231,6 +231,9 @@ button:hover{
     font-weight: 500;
     text-decoration: none;
 
+}
+.single-progress{
+    margin-bottom: 20px;
 }
 
 /* services section */
